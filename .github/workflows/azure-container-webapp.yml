@@ -30,8 +30,8 @@ env:
   AZURE_WEBAPP_NAME: your-app-name  # set this to the name of your Azure Web App
 
 on:
-  push:
-    branches: [ "main" ]
+  # Automatic runs paused on 2026-09-10 for this inactive project.
+  # Run manually from Actions when another deployment is needed.
   workflow_dispatch:
 
 permissions:
